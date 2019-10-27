@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Codejam Canvas</title>
+    <link rel="stylesheet" href="main.css" type="text/css">
+
+</head>
+<body>
+<header class="header">
+    <div>
+        <img src="Icons/nav_icon.svg">
+    </div>
+    <div class="text">CodeJam - Pallete</div>
+</header>
+<div class="main">
+    <div class="cards">
+        <div class="pixil-frame">
+            <div class="menu_item"><img class="icon" src="Icons/icon-paint-bucket.svg">Paint bucket</div>
+            <div class="menu_item"><img class="icon" src="Icons/icon-choose-color.svg">Choose color</div>
+            <div class="menu_item"><img class="icon" src="Icons/icon-move.svg">Move</div>
+            <div class="menu_item"><img class="icon" src="Icons/icon-transform.svg">Transform</div>
+        </div>
+        <div class="colors">
+            <div class="menu_item"><img class="icon" src="Icons/grey.svg">Current color</div>
+            <div class="menu_item"><img class="icon" src="Icons/green.svg">Prev color</div>
+            <div class="menu_item"><img class="icon" src="Icons/red.svg"> red</div>
+            <div class="menu_item"><img class="icon" src="Icons/blue.svg">blue</div>
+        </div>
+    </div>
+    <div class="canvas"><canvas></canvas></div>
+    <div class="nav">
+        <button id="first">4x4</button>
+        <button id="second">32x32</button>
+        <button id="third">256x256</button>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

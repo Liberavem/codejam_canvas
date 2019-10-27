@@ -1,0 +1,105 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+}
+
+.text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(0, 0, 0, 0.87);
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.nav {
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 228px;
+    height: 246px;
+    left: 29px;
+    top: 127px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.canvas {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.pixil-frame {
+
+    width: 228px;
+    height: 246px;
+    left: 29px;
+    top: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.colors {
+
+    width: 228px;
+    height: 246px;
+    left: 29px;
+    top: 127px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24), 0px 0px 4px rgba(0, 0, 0, 0.12);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.display {
+    display: flex;
+}
+
+.menu_item {
+    width: 196px;
+    height: 48px;
+    left: 18px;
+    top: 0px;
+}
+
+.icon {
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 44px;
+}
+
+button {
+    background: transparent;
+    width: 196px;
+    height: 48px;
+    left: 18px;
+    top: 0px;
+}
+
+#first {
+    border-bottom: none;
+}
+#second {
+    border-bottom: none;
+    border-top: none;
+}
+#third {
+    border-top: none;
+}
+
